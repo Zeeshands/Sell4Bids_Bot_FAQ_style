@@ -1,0 +1,40 @@
+slots:
+  location:
+    type: text
+  phone_model:
+    type: text
+
+intents:
+ - greet
+ - goodbye
+ - phone_price
+ - ask_products
+
+entities:
+ - location
+ - phone_model
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_ask_phonemodel:
+    - 'for which phone model?'
+    - 'what model of the phone?'
+  utter_test:
+    - 'testing response 1'
+    - 'testing response 2'
+  utter_tellproducts:
+    - 'we sell cell phones'
+  utter_default:
+    - 'I did''nt quite get that, you can ask me things like what is the price of an Iphone etc'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_phonemodel
+ - action_inform_phone_price
+ - utter_test
+ - action_tell_products

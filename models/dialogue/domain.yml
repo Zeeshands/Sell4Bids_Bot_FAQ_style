@@ -1,0 +1,50 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_phonemodel
+- action_inform_phone_price
+- utter_test
+- action_tell_products
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- phone_model
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- phone_price:
+    use_entities: true
+- ask_products:
+    use_entities: true
+slots:
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  phone_model:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_phonemodel:
+  - text: for which phone model?
+  - text: what model of the phone?
+  utter_default:
+  - text: I did'nt quite get that, you can ask me things like what is the price of
+      an Iphone etc
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?
+  utter_tellproducts:
+  - text: we sell cell phones
+  utter_test:
+  - text: testing response 1
+  - text: testing response 2
