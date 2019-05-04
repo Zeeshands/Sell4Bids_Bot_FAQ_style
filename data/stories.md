@@ -20,7 +20,7 @@
    - utter_goodbye
    - export
    
-#story 2
+# story 2
 * greet
    - utter_greet
 * ask_products
