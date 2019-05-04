@@ -19,6 +19,7 @@ class ActionInformPhonePrice(Action):
         dispatcher.utter_message(response)
         return [SlotSet('phone_model', pm)]
 
+#second class
 class ActionTellProducts(Action):
     def name(self):
         return 'action_tell_products'
