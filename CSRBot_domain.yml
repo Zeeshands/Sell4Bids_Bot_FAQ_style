@@ -27,7 +27,7 @@ templates:
     - 'testing response 1'
     - 'testing response 2'
   utter_tellproducts:
-    - 'we sell cell phones'
+    - 'we sell Iphones'
   utter_default:
     - 'I did''nt quite get that, you can ask me things like what is the price of an Iphone etc'
 

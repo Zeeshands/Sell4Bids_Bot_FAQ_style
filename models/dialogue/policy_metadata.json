@@ -11,7 +11,7 @@
   },
   "python": "3.6.7",
   "max_histories": [
-    2,
+    5,
     3,
     null
   ],
@@ -21,7 +21,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190504-105902",
+  "trained_at": "20190510-150215",
   "rasa_core": "0.13.0",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.2"
