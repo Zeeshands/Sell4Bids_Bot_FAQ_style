@@ -2,7 +2,7 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "phone_model"
+        "buyerseller"
       ]
     },
     "utter_goodbye": {
@@ -21,7 +21,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190510-150215",
+  "trained_at": "20190515-172328",
   "rasa_core": "0.13.0",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.2"

@@ -17,7 +17,7 @@ from rasa_core import config
 
 logger = logging.getLogger(__name__)
 
-def train_dialogue(domain_file = 'CSRBot_domain.yml',
+def train_dialogue(domain_file = 'Sell4BidsBot_domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
 
@@ -28,8 +28,8 @@ def train_dialogue(domain_file = 'CSRBot_domain.yml',
 	agent.persist(model_path)
 	return agent
 	
-def run_csr_bot(serve_forever=True):
-	interpreter = RasaNLUInterpreter('./models/nlu/default/csrbotnlu')
+def run_sell4bids_bot(serve_forever=True):
+	interpreter = RasaNLUInterpreter('./models/nlu/default/sell4bidsbotnlu')
 	action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 	agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint)
 	rasa_core.run.serve_application(agent ,channel='cmdline')
@@ -37,4 +37,4 @@ def run_csr_bot(serve_forever=True):
 	
 if __name__ == '__main__':
 	train_dialogue()
-	run_csr_bot()
+	run_sell4bids_bot()

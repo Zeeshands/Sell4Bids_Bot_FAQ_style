@@ -15,8 +15,8 @@ if __name__ == '__main__':
 	logging.basicConfig(level='INFO')
 	training_data_file = './data/stories.md'
 	model_path = './models/dialogue'
-	domain_file = "CSRBot_domain.yml"
-	nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/csrbotnlu')
+	domain_file = "Sell4BidsBot_domain.yml"
+	nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/sell4bidsbotnlu')
 
 	action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 

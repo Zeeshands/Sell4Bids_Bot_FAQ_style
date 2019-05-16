@@ -7,11 +7,11 @@ def train_nlu(data, configs, model_dir):
 	training_data = load_data(data)
 	trainer = Trainer(config.load(configs))
 	trainer.train(training_data)
-	model_directory = trainer.persist(model_dir, fixed_model_name = 'csrbotnlu')
+	model_directory = trainer.persist(model_dir, fixed_model_name = 'sell4bidsbotnlu')
 	
 def run_nlu():
-	interpreter = Interpreter.load('./models/nlu/default/csrbotnlu')
-	print(interpreter.parse(u"can you quote me the market worth of an iphone"))
+	interpreter = Interpreter.load('./models/nlu/default/sell4bidsbotnlu')
+	print(interpreter.parse(u"How it works for sellers"))
 	
 if __name__ == '__main__':
 	train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')

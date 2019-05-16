@@ -12,12 +12,12 @@ from rasa_core.run import serve_application
 
 logger = logging.getLogger(__name__)
 
-def run_csr_bot(serve_forever=True):
-    interpreter = RasaNLUInterpreter('./models/nlu/default/csrbotnlu')
+def run_sell4bids_bot(serve_forever=True):
+    interpreter = RasaNLUInterpreter('./models/nlu/default/sell4bidsbotnlu')
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint)
     rasa_core.run.serve_application(agent ,channel='cmdline')
     return agent
 
 if __name__ == '__main__':
-    run_csr_bot()
+    run_sell4bids_bot()

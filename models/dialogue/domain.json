@@ -1,13 +1,12 @@
 {
   "states": [
+    "intent_ask_about_sell4bids",
+    "intent_ask_howto",
     "intent_ask_products",
     "intent_goodbye",
     "intent_greet",
-    "intent_phone_price",
-    "entity_location",
-    "entity_phone_model",
-    "slot_location_0",
-    "slot_phone_model_0",
+    "entity_buyerseller",
+    "slot_buyerseller_0",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
@@ -17,9 +16,8 @@
     "prev_action_default_ask_rephrase",
     "prev_utter_greet",
     "prev_utter_goodbye",
-    "prev_utter_ask_phonemodel",
-    "prev_action_inform_phone_price",
-    "prev_utter_test",
-    "prev_action_tell_products"
+    "prev_action_tell_products",
+    "prev_utter_sell4bids",
+    "prev_action_howto"
   ]
 }

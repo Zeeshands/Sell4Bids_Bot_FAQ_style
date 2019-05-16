@@ -15,7 +15,7 @@ from rasa_core.utils import EndpointConfig
 logger = logging.getLogger(__name__)
 
 def run_weather_online(interpreter,
-                          domain_file="CSRBot_domain.yml",
+                          domain_file="sell4bidsBot_domain.yml",
                           training_data_file='data/stories.md'):
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")						  
     agent = Agent(domain_file,
@@ -30,5 +30,5 @@ def run_weather_online(interpreter,
 
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
-    nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/csrbotnlu')
+    nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/sell4bidsbotnlu')
     run_weather_online(nlu_interpreter)

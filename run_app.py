@@ -5,7 +5,7 @@ import yaml
 from rasa_core.utils import EndpointConfig
 
 
-nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/csrbotnlu')
+nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/sell4bidsbotnlu')
 action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 agent = Agent.load('./models/dialogue', interpreter = nlu_interpreter, action_endpoint = action_endpoint)
 

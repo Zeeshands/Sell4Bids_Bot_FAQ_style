@@ -1,0 +1,149 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "ask_products",
+        "text": "what do you sell"
+      },
+      {
+        "intent": "ask_products",
+        "text": "what do you sell"
+      },
+      {
+        "intent": "ask_products",
+        "text": "what products are for sale"
+      },
+      {
+        "intent": "ask_products",
+        "text": "anything for sale"
+      },
+      {
+        "intent": "ask_products",
+        "text": "I want to buy something, what can you offer"
+      },
+      {
+        "intent": "ask_products",
+        "text": "what is for sale"
+      },
+      {
+        "intent": "ask_about_sell4bids",
+        "text": "what is sell4bids"
+      },
+      {
+        "intent": "ask_about_sell4bids",
+        "text": "what sell4bids"
+      },
+      {
+        "intent": "ask_about_sell4bids",
+        "text": "what sell4bids"
+      },
+      {
+        "intent": "ask_howto",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "sellers",
+            "entity": "buyerseller"
+          }
+        ],
+        "text": "How it works for sellers"
+      },
+      {
+        "intent": "ask_howto",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "auctioneers",
+            "entity": "buyerseller"
+          }
+        ],
+        "text": "How it works for auctioneers"
+      },
+      {
+        "intent": "ask_howto",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "buyers",
+            "entity": "buyerseller"
+          }
+        ],
+        "text": "How it works for buyers"
+      },
+      {
+        "intent": "ask_howto",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "bidders",
+            "entity": "buyerseller"
+          }
+        ],
+        "text": "How it works for bidders"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

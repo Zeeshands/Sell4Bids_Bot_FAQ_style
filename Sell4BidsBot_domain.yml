@@ -1,0 +1,33 @@
+slots:
+  buyerseller:
+    type: text
+
+intents:
+ - greet
+ - goodbye
+ - ask_products
+ - ask_about_sell4bids
+ - ask_howto
+
+entities:
+ - buyerseller
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_sell4bids:
+    - 'It is the auction universe. Fast, easy,cool.\nIt provides the next generation
+       AI platform to connect sellers,services,stuff & jobs with buyers.'
+
+  utter_default:
+    - 'I did''nt quite get that, you can ask me things like what is sell4bids etc'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - action_tell_products
+ - utter_sell4bids
+ - action_howto

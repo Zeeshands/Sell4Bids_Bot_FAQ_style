@@ -5,26 +5,16 @@ from __future__ import unicode_literals
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 
-class ActionInformPhonePrice(Action):
-    def name(self):
-        return 'action_inform_phone_price'
-
-    def run(self, dispatcher, tracker, domain):
-        pm = str(tracker.get_slot('phone_model'))
-        if pm=='iphone6':
-         price=320
-        else:
-         price=420
-        response = """The price for {} is {} dollars.""".format(pm,price)
-        dispatcher.utter_message(response)
-        return [SlotSet('phone_model', pm)]
-
-#second class
 
 class ActionTellProducts(Action):
     def name(self):
-        return 'action_tell_products'
+        return 'action_howto'
 
     def run(self, dispatcher, tracker, domain):
-        response = "Our products are cell phones."
+        bs = str(tracker.get_slot('buyerseller'))
+        if (bs=='sellers' or bs=='auctioneers'):
+         response = "You signup\nsetup your sellers profile\nTake photo Auction,jobs\nChat with buyers\nTurn stuff into cash"
+        if (bs=='buyers' or bs=='bidders'):
+         response = "You signup\nsearch or browse stuff\nbid or buy\nbuy in person\nleverage our AI\nshop with a roar"
+
         dispatcher.utter_message(response)
