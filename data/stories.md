@@ -48,3 +48,21 @@
    - action_howto
 * goodbye
    - utter_goodbye
+   
+# story 4
+* greet
+   - utter_greet
+* ask_howto
+   - utter_howto
+* goodbye
+   - utter_goodbye
+
+# story 5
+* greet
+   - utter_greet
+* ask_howto
+   - utter_howto
+* ask_listening_posting_on_socialmedia
+   - utter_listening_posting_on_socialmedia
+* goodbye
+   - utter_goodbye

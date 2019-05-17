@@ -140,6 +140,34 @@
           }
         ],
         "text": "How it works for bidders"
+      },
+      {
+        "intent": "ask_howto",
+        "text": "How do I post a listing on Sell4Bids"
+      },
+      {
+        "intent": "ask_howto",
+        "text": "How can I post a listing"
+      },
+      {
+        "intent": "ask_howto",
+        "text": "How to post a listing"
+      },
+      {
+        "intent": "ask_howto",
+        "text": "How can I post a product or service"
+      },
+      {
+        "intent": "ask_listening_posting_on_socialmedia",
+        "text": "Can I share my listing on Social Account (Facebook etc)"
+      },
+      {
+        "intent": "ask_listening_posting_on_socialmedia",
+        "text": "Can I share my listing on social media"
+      },
+      {
+        "intent": "ask_listening_posting_on_socialmedia",
+        "text": "Is sharing a listing on social media possible"
       }
     ],
     "regex_features": [],

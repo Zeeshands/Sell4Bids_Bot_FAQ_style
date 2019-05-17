@@ -155,7 +155,45 @@
             "value": "bidders",
             "entity": "buyerseller"
           }]
+      },
+
+      {
+       "text": "How do I post a listing on Sell4Bids",
+       "intent": "ask_howto",
+       "entities": []
+      },
+      {
+       "text": "How can I post a listing",
+       "intent": "ask_howto",
+       "entities": []
+      },
+      {
+       "text": "How to post a listing",
+       "intent": "ask_howto",
+       "entities": []
+      },
+      {
+       "text": "How can I post a product or service",
+       "intent": "ask_howto",
+       "entities": []
+      },
+      {
+       "text": "Can I share my listing on Social Account (Facebook etc)",
+       "intent": "ask_listening_posting_on_socialmedia",
+       "entities": []
+      },
+      {
+       "text": "Can I share my listing on social media",
+       "intent": "ask_listening_posting_on_socialmedia",
+       "entities": []
+      },
+      {
+       "text": "Is sharing a listing on social media possible",
+       "intent": "ask_listening_posting_on_socialmedia",
+       "entities": []
       }
+
+
     ]
   }
 }

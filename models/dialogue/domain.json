@@ -2,6 +2,7 @@
   "states": [
     "intent_ask_about_sell4bids",
     "intent_ask_howto",
+    "intent_ask_listening_posting_on_socialmedia",
     "intent_ask_products",
     "intent_goodbye",
     "intent_greet",
@@ -18,6 +19,8 @@
     "prev_utter_goodbye",
     "prev_action_tell_products",
     "prev_utter_sell4bids",
-    "prev_action_howto"
+    "prev_action_howto",
+    "prev_utter_howto",
+    "prev_utter_listening_posting_on_socialmedia"
   ]
 }

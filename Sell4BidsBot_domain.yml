@@ -8,6 +8,7 @@ intents:
  - ask_products
  - ask_about_sell4bids
  - ask_howto
+ - ask_listening_posting_on_socialmedia
 
 entities:
  - buyerseller
@@ -21,6 +22,12 @@ templates:
   utter_sell4bids:
     - 'It is the auction universe. Fast, easy,cool.\nIt provides the next generation
        AI platform to connect sellers,services,stuff & jobs with buyers.'
+  utter_howto:
+    - 'Create an account and tap the “Sell or Auction Now”. Select the desired listing category among Vehicles, Services, Jobs and Other Items.
+       Then fill the required fields and list it for Sale or Auction.'
+
+  utter_listening_posting_on_socialmedia:
+    - 'Yes, you can share your listing to other applications. After successfully listing the item, you can share your listing from item detail page.'
 
   utter_default:
     - 'I did''nt quite get that, you can ask me things like what is sell4bids etc'
@@ -31,3 +38,5 @@ actions:
  - action_tell_products
  - utter_sell4bids
  - action_howto
+ - utter_howto
+ - utter_listening_posting_on_socialmedia
