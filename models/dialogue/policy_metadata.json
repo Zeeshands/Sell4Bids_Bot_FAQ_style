@@ -1,11 +1,9 @@
 {
   "action_fingerprints": {
     "action_listen": {
-      "slots": [
-        "buyerseller"
-      ]
+      "slots": []
     },
-    "utter_goodbye": {
+    "action_faq": {
       "slots": []
     }
   },
@@ -21,7 +19,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190517-160314",
+  "trained_at": "20190604-155334",
   "rasa_core": "0.13.0",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.2"

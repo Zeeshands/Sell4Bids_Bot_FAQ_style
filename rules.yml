@@ -1,0 +1,8 @@
+intent_substitutions:
+
+  - intent: (faq.*)
+    with: faq
+    entities:
+      add:
+      - name: intent
+        value: '{intent}'

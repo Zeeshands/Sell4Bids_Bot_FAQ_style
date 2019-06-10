@@ -13,21 +13,19 @@ from rasa_core.utils import EndpointConfig
 from rasa_core.run import serve_application
 from rasa_core.policies.fallback import FallbackPolicy
 
-from rasa_core import config
-
 logger = logging.getLogger(__name__)
 
 def train_dialogue(domain_file = 'Sell4BidsBot_domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
 
-	fallback = FallbackPolicy(fallback_action_name="action_default_fallback", core_threshold=0.3, nlu_threshold=0.3)
+	fallback = FallbackPolicy(fallback_action_name="action_default_fallback", core_threshold=0.3, nlu_threshold=0.2)
 	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=200, batch_size=50),fallback])
-	data = agent.load_data(training_data_file)	
+	data = agent.load_data(training_data_file)
 	agent.train(data)
 	agent.persist(model_path)
 	return agent
-	
+
 def run_sell4bids_bot(serve_forever=True):
 	interpreter = RasaNLUInterpreter('./models/nlu/default/sell4bidsbotnlu')
 	action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")

@@ -1,30 +1,38 @@
 %YAML 1.1
 ---
 actions:
-- utter_greet
-- utter_goodbye
-- action_tell_products
-- utter_sell4bids
-- action_howto
-- utter_howto
-- utter_listening_posting_on_socialmedia
+- action_faq
+- utter_banner
+- utter_default
 config:
   store_entities_as_slots: true
 entities:
 - buyerseller
 forms: []
 intents:
-- greet:
+- banner:
     use_entities: true
-- goodbye:
+- faq.greet:
     use_entities: true
-- ask_products:
+- faq.goodbye:
     use_entities: true
-- ask_about_sell4bids:
+- faq.ask_products:
     use_entities: true
-- ask_howto:
+- faq.ask_about_sell4bids:
     use_entities: true
-- ask_listening_posting_on_socialmedia:
+- faq.ask_howto:
+    use_entities: true
+- faq.ask_howto_post:
+    use_entities: true
+- faq.ask_listening_posting_on_socialmedia:
+    use_entities: true
+- faq.ask_what_to_buysell:
+    use_entities: true
+- faq.ask_if_listening_sold:
+    use_entities: true
+- faq.ask_where_listening_posted:
+    use_entities: true
+- faq.ask_listening_payment:
     use_entities: true
 slots:
   buyerseller:
@@ -32,20 +40,8 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_banner:
+  - text: Welcome to Sell4Bids Website. I am a Customer support bot. What would you
+      like to know today?
   utter_default:
   - text: I did'nt quite get that, you can ask me things like what is sell4bids etc
-  utter_goodbye:
-  - text: Talk to you later.
-  - text: Bye bye :(
-  utter_greet:
-  - text: Hello! How can I help?
-  utter_howto:
-  - text: Create an account and tap the “Sell or Auction Now”. Select the desired
-      listing category among Vehicles, Services, Jobs and Other Items. Then fill the
-      required fields and list it for Sale or Auction.
-  utter_listening_posting_on_socialmedia:
-  - text: Yes, you can share your listing to other applications. After successfully
-      listing the item, you can share your listing from item detail page.
-  utter_sell4bids:
-  - text: It is the auction universe. Fast, easy,cool.\nIt provides the next generation
-      AI platform to connect sellers,services,stuff & jobs with buyers.

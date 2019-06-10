@@ -12,7 +12,10 @@ def train_nlu(data, configs, model_dir):
 def run_nlu():
 	interpreter = Interpreter.load('./models/nlu/default/sell4bidsbotnlu')
 	print(interpreter.parse(u"How it works for sellers"))
+	print(interpreter.parse(u"what can be bought sold here"))
 	
 if __name__ == '__main__':
-	train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
+	train_nlu('./data/nlu_traning_faq.md', 'config_spacy.json', './models/nlu')
+	#train_nlu('./data/data1.json', 'config_spacy.json', './models/nlu')
+	#train_nlu('./data/nlu_data.md', 'config_spacy.json', './models/nlu')
 	run_nlu()

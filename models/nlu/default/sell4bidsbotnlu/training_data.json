@@ -2,99 +2,91 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greet",
+        "intent": "banner",
+        "text": "get start ok"
+      },
+      {
+        "intent": "banner",
+        "text": "get start"
+      },
+      {
+        "intent": "faq.greet",
         "text": "Hello"
       },
       {
-        "intent": "goodbye",
-        "text": "goodbye"
-      },
-      {
-        "intent": "greet",
+        "intent": "faq.greet",
         "text": "hey"
       },
       {
-        "intent": "greet",
+        "intent": "faq.greet",
         "text": "whats up"
       },
       {
-        "intent": "greet",
-        "text": "hello"
-      },
-      {
-        "intent": "greet",
+        "intent": "faq.greet",
         "text": "hi"
       },
       {
-        "intent": "greet",
+        "intent": "faq.greet",
         "text": "heya"
       },
       {
-        "intent": "greet",
+        "intent": "faq.greet",
         "text": "howdy"
       },
       {
-        "intent": "greet",
+        "intent": "faq.greet",
         "text": "hey there"
       },
       {
-        "intent": "goodbye",
-        "text": "bye"
-      },
-      {
-        "intent": "goodbye",
+        "intent": "faq.goodbye",
         "text": "goodbye"
       },
       {
-        "intent": "goodbye",
+        "intent": "faq.goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "faq.goodbye",
         "text": "bye bye"
       },
       {
-        "intent": "goodbye",
+        "intent": "faq.goodbye",
         "text": "see ya"
       },
       {
-        "intent": "goodbye",
-        "text": "see you later"
-      },
-      {
-        "intent": "ask_products",
+        "intent": "faq.ask_products",
         "text": "what do you sell"
       },
       {
-        "intent": "ask_products",
-        "text": "what do you sell"
-      },
-      {
-        "intent": "ask_products",
+        "intent": "faq.ask_products",
         "text": "what products are for sale"
       },
       {
-        "intent": "ask_products",
+        "intent": "faq.ask_products",
         "text": "anything for sale"
       },
       {
-        "intent": "ask_products",
+        "intent": "faq.ask_products",
         "text": "I want to buy something, what can you offer"
       },
       {
-        "intent": "ask_products",
+        "intent": "faq.ask_products",
         "text": "what is for sale"
       },
       {
-        "intent": "ask_about_sell4bids",
+        "intent": "faq.ask_about_sell4bids",
         "text": "what is sell4bids"
       },
       {
-        "intent": "ask_about_sell4bids",
+        "intent": "faq.ask_about_sell4bids",
         "text": "what sell4bids"
       },
       {
-        "intent": "ask_about_sell4bids",
-        "text": "what sell4bids"
+        "intent": "faq.ask_about_sell4bids",
+        "text": "what is sell4bids"
       },
       {
-        "intent": "ask_howto",
+        "intent": "faq.ask_howto",
         "entities": [
           {
             "start": 17,
@@ -106,7 +98,7 @@
         "text": "How it works for sellers"
       },
       {
-        "intent": "ask_howto",
+        "intent": "faq.ask_howto",
         "entities": [
           {
             "start": 17,
@@ -118,7 +110,7 @@
         "text": "How it works for auctioneers"
       },
       {
-        "intent": "ask_howto",
+        "intent": "faq.ask_howto",
         "entities": [
           {
             "start": 17,
@@ -130,7 +122,7 @@
         "text": "How it works for buyers"
       },
       {
-        "intent": "ask_howto",
+        "intent": "faq.ask_howto",
         "entities": [
           {
             "start": 17,
@@ -142,32 +134,92 @@
         "text": "How it works for bidders"
       },
       {
-        "intent": "ask_howto",
+        "intent": "faq.ask_howto_post",
         "text": "How do I post a listing on Sell4Bids"
       },
       {
-        "intent": "ask_howto",
-        "text": "How can I post a listing"
+        "intent": "faq.ask_howto_post",
+        "text": "How do I post a listening"
       },
       {
-        "intent": "ask_howto",
+        "intent": "faq.ask_howto_post",
         "text": "How to post a listing"
       },
       {
-        "intent": "ask_howto",
+        "intent": "faq.ask_howto_post",
         "text": "How can I post a product or service"
       },
       {
-        "intent": "ask_listening_posting_on_socialmedia",
+        "intent": "faq.ask_howto_post",
+        "text": "how can a listening be posted"
+      },
+      {
+        "intent": "faq.ask_listening_posting_on_socialmedia",
         "text": "Can I share my listing on Social Account (Facebook etc)"
       },
       {
-        "intent": "ask_listening_posting_on_socialmedia",
+        "intent": "faq.ask_listening_posting_on_socialmedia",
         "text": "Can I share my listing on social media"
       },
       {
-        "intent": "ask_listening_posting_on_socialmedia",
+        "intent": "faq.ask_listening_posting_on_socialmedia",
         "text": "Is sharing a listing on social media possible"
+      },
+      {
+        "intent": "faq.ask_listening_posting_on_socialmedia",
+        "text": "Can we share listening on social account"
+      },
+      {
+        "intent": "faq.ask_what_to_buysell",
+        "text": "What can I buy and sell on Sell4Bids"
+      },
+      {
+        "intent": "faq.ask_what_to_buysell",
+        "text": "What can I buy and sell"
+      },
+      {
+        "intent": "faq.ask_what_to_buysell",
+        "text": "what can be bought sold here"
+      },
+      {
+        "intent": "faq.ask_what_to_buysell",
+        "text": "what can I buy"
+      },
+      {
+        "intent": "faq.ask_if_listening_sold",
+        "text": "How do I let other users know my listing has been sold"
+      },
+      {
+        "intent": "faq.ask_if_listening_sold",
+        "text": "How can other users know that my listing has been sold"
+      },
+      {
+        "intent": "faq.ask_if_listening_sold",
+        "text": "How would someone know my listing has been sold"
+      },
+      {
+        "intent": "faq.ask_where_listening_posted",
+        "text": "Where can I see all the listings I have posted"
+      },
+      {
+        "intent": "faq.ask_where_listening_posted",
+        "text": "I have posted listening, where can I see it"
+      },
+      {
+        "intent": "faq.ask_where_listening_posted",
+        "text": "from where the listening posted can be seen"
+      },
+      {
+        "intent": "faq.ask_listening_payment",
+        "text": "Do I have to pay for listing"
+      },
+      {
+        "intent": "faq.ask_listening_payment",
+        "text": "is listing paid"
+      },
+      {
+        "intent": "faq.ask_listening_payment",
+        "text": "is there any payment for posting a listening"
       }
     ],
     "regex_features": [],
