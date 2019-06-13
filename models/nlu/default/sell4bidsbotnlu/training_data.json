@@ -2,14 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "banner",
-        "text": "get start ok"
-      },
-      {
-        "intent": "banner",
-        "text": "get start"
-      },
-      {
         "intent": "faq.greet",
         "text": "Hello"
       },
@@ -39,6 +31,10 @@
       },
       {
         "intent": "faq.goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "faq.goodbye",
         "text": "goodbye"
       },
       {
@@ -52,6 +48,22 @@
       {
         "intent": "faq.goodbye",
         "text": "see ya"
+      },
+      {
+        "intent": "faq.goodbye",
+        "text": "see you then"
+      },
+      {
+        "intent": "faq.goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "faq.goodbye",
+        "text": "take care"
+      },
+      {
+        "intent": "faq.goodbye",
+        "text": "takecare"
       },
       {
         "intent": "faq.ask_products",
@@ -135,7 +147,7 @@
       },
       {
         "intent": "faq.ask_howto_post",
-        "text": "How do I post a listing on Sell4Bids"
+        "text": "How do I post a listening on Sell4Bids"
       },
       {
         "intent": "faq.ask_howto_post",
@@ -143,7 +155,7 @@
       },
       {
         "intent": "faq.ask_howto_post",
-        "text": "How to post a listing"
+        "text": "How to post a listening"
       },
       {
         "intent": "faq.ask_howto_post",
@@ -155,15 +167,15 @@
       },
       {
         "intent": "faq.ask_listening_posting_on_socialmedia",
-        "text": "Can I share my listing on Social Account (Facebook etc)"
+        "text": "Can I share my listening on Social Account (Facebook etc)"
       },
       {
         "intent": "faq.ask_listening_posting_on_socialmedia",
-        "text": "Can I share my listing on social media"
+        "text": "Can I share my listening on social media"
       },
       {
         "intent": "faq.ask_listening_posting_on_socialmedia",
-        "text": "Is sharing a listing on social media possible"
+        "text": "Is sharing a listening on social media possible"
       },
       {
         "intent": "faq.ask_listening_posting_on_socialmedia",
@@ -187,15 +199,15 @@
       },
       {
         "intent": "faq.ask_if_listening_sold",
-        "text": "How do I let other users know my listing has been sold"
+        "text": "How do I let other users know my listening has been sold"
       },
       {
         "intent": "faq.ask_if_listening_sold",
-        "text": "How can other users know that my listing has been sold"
+        "text": "How can other users know that my listening has been sold"
       },
       {
         "intent": "faq.ask_if_listening_sold",
-        "text": "How would someone know my listing has been sold"
+        "text": "How would someone know my listening has been sold"
       },
       {
         "intent": "faq.ask_where_listening_posted",
@@ -211,11 +223,11 @@
       },
       {
         "intent": "faq.ask_listening_payment",
-        "text": "Do I have to pay for listing"
+        "text": "Do I have to pay for listening"
       },
       {
         "intent": "faq.ask_listening_payment",
-        "text": "is listing paid"
+        "text": "is listening paid"
       },
       {
         "intent": "faq.ask_listening_payment",

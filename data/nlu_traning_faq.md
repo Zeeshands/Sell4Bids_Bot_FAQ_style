@@ -1,7 +1,3 @@
-## intent:banner
-- get start ok
-- get start
-
 ## intent:faq.greet
 - Hello
 - hey
@@ -12,10 +8,15 @@
 - hey there
 
 ## intent:faq.goodbye
+- good bye
 - goodbye
 - bye
 - bye bye
 - see ya
+- see you then
+- see you
+- take care
+- takecare
 
 ## intent:faq.ask_products
 - what do you sell
@@ -36,16 +37,16 @@
 - How it works for [bidders](buyerseller)
 
 ## intent:faq.ask_howto_post
-- How do I post a listing on Sell4Bids
+- How do I post a listening on Sell4Bids
 - How do I post a listening
-- How to post a listing
+- How to post a listening
 - How can I post a product or service
 - how can a listening be posted
 
 ## intent:faq.ask_listening_posting_on_socialmedia
-- Can I share my listing on Social Account (Facebook etc)
-- Can I share my listing on social media
-- Is sharing a listing on social media possible
+- Can I share my listening on Social Account (Facebook etc)
+- Can I share my listening on social media
+- Is sharing a listening on social media possible
 - Can we share listening on social account
 
 ## intent:faq.ask_what_to_buysell
@@ -55,9 +56,9 @@
 - what can I buy
 
 ## intent:faq.ask_if_listening_sold
-- How do I let other users know my listing has been sold
-- How can other users know that my listing has been sold
-- How would someone know my listing has been sold
+- How do I let other users know my listening has been sold
+- How can other users know that my listening has been sold
+- How would someone know my listening has been sold
 
 ## intent:faq.ask_where_listening_posted
 - Where can I see all the listings I have posted
@@ -65,6 +66,7 @@
 - from where the listening posted can be seen
 
 ## intent:faq.ask_listening_payment
-- Do I have to pay for listing
-- is listing paid
+- Do I have to pay for listening
+- is listening paid
 - is there any payment for posting a listening
+- is there any payment to post
