@@ -13,6 +13,7 @@ def run_nlu():
 	interpreter = Interpreter.load('./models/nlu/default/sell4bidsbotnlu')
 	print(interpreter.parse(u"How it works for sellers"))
 	print(interpreter.parse(u"what can be bought sold here"))
+	print(interpreter.parse(u"have a good day").get('intent'))
 	
 if __name__ == '__main__':
 	train_nlu('./data/nlu_traning_faq.md', 'config_spacy.json', './models/nlu')

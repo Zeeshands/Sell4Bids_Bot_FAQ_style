@@ -16,12 +16,16 @@ class ActionFAQ(Action):
            intent = tracker.latest_message['intent'].get('name')
 
            if intent == 'faq.greet':
-               tup1 = ("Hello! How can I help" , "Good day & how may I help you!")
-               res = tup1[random.randint(0, 2)]
+               #tup1 = ("Hello! How can I help" , "Good day & how may I help you!")
+               #res = tup1[random.randint(0, 2)]
+               res = 'Hello! How can I help'
+           elif intent == 'faq.banner':
+               res = 'Hi, I am Sell4Bids ChatBot, How can I help you'
 
            elif intent == 'faq.goodbye':
-               tup1 = ("Bye bye: (" , "Take care !")
-               res = tup1[random.randint(0, 2)]
+               res = 'Bye Bye'
+               #tup1 = ("Bye bye: (" , "Take care !")
+               #res = tup1[random.randint(0, 2)]
 
            elif intent == 'faq.ask_products':
                res = 'On Sell4Bids, you can buy and sell almost anything: new and used products, handmade items and crafts, gift cards'

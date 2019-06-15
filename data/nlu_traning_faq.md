@@ -1,3 +1,8 @@
+## intent:faq.banner
+- banner
+- banner1
+- banner2
+
 ## intent:faq.greet
 - Hello
 - hey
@@ -17,6 +22,7 @@
 - see you
 - take care
 - takecare
+- have a good day
 
 ## intent:faq.ask_products
 - what do you sell

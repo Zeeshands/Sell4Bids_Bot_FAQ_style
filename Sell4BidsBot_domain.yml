@@ -3,6 +3,7 @@ slots:
     type: text
 
 intents:
+ - faq.banner
  - faq.greet
  - faq.goodbye
  - faq.ask_products

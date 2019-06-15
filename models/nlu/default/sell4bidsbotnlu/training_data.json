@@ -2,6 +2,18 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "faq.banner",
+        "text": "banner"
+      },
+      {
+        "intent": "faq.banner",
+        "text": "banner1"
+      },
+      {
+        "intent": "faq.banner",
+        "text": "banner2"
+      },
+      {
         "intent": "faq.greet",
         "text": "Hello"
       },
@@ -64,6 +76,10 @@
       {
         "intent": "faq.goodbye",
         "text": "takecare"
+      },
+      {
+        "intent": "faq.goodbye",
+        "text": "have a good day"
       },
       {
         "intent": "faq.ask_products",
@@ -232,6 +248,10 @@
       {
         "intent": "faq.ask_listening_payment",
         "text": "is there any payment for posting a listening"
+      },
+      {
+        "intent": "faq.ask_listening_payment",
+        "text": "is there any payment to post"
       }
     ],
     "regex_features": [],
