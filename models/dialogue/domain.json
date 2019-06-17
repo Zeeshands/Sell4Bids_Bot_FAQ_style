@@ -1,6 +1,5 @@
 {
   "states": [
-    "intent_banner",
     "intent_faq.ask_about_sell4bids",
     "intent_faq.ask_howto",
     "intent_faq.ask_howto_post",
@@ -10,6 +9,7 @@
     "intent_faq.ask_products",
     "intent_faq.ask_what_to_buysell",
     "intent_faq.ask_where_listening_posted",
+    "intent_faq.banner",
     "intent_faq.goodbye",
     "intent_faq.greet",
     "entity_buyerseller",
@@ -22,7 +22,6 @@
     "prev_action_default_ask_affirmation",
     "prev_action_default_ask_rephrase",
     "prev_action_faq",
-    "prev_utter_banner",
     "prev_utter_default"
   ]
 }

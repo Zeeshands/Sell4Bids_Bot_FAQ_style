@@ -2,7 +2,6 @@
 ---
 actions:
 - action_faq
-- utter_banner
 - utter_default
 config:
   store_entities_as_slots: true
@@ -10,7 +9,7 @@ entities:
 - buyerseller
 forms: []
 intents:
-- banner:
+- faq.banner:
     use_entities: true
 - faq.greet:
     use_entities: true
@@ -40,8 +39,5 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
-  utter_banner:
-  - text: Welcome to Sell4Bids Website. I am a Customer support bot. What would you
-      like to know today?
   utter_default:
   - text: I did'nt quite get that, you can ask me things like what is sell4bids etc

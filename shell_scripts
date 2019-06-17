@@ -20,3 +20,10 @@ To open chat window in a website
             profileAvatar: "https://cdn.clipart.email/9cfdd987ef5399ff9424fc81d62576ef_technology-robots-blue-antenna-arm-png-image-and-clipart-for-_650-883.jpeg",
         })
     </script>
+
+<body>
+    <app-root></app-root>
+    <div id="webchat"/>
+</body>
+
+python3 -m spacy download en
