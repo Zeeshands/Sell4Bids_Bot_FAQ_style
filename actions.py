@@ -59,5 +59,4 @@ class ActionFAQ(Action):
            elif intent == 'faq.ask_listening_payment':
                res = 'No, Currently you don’t have to pay for listing on Sell4Bids. You can list as many items as you want to sell.'
 
-           res = str(tracker.sender_id)
            dispatcher.utter_message(res)
