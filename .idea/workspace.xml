@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c498e963-85ee-4249-921f-d6096e4516a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sell4BidsBot_domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Sell4BidsBot_domain.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/bot.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_spacy.json" beforeDir="false" afterPath="$PROJECT_DIR$/config_spacy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/credentials.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nlu_traning_faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu_traning_faq.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dialogue_management_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/dialogue_management_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endpoints.yml" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph1.png" beforeDir="false" afterPath="$PROJECT_DIR$/graph1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dialogue/domain.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/domain.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dialogue/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/domain.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/featurizer.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/featurizer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/keras_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/keras_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/policy_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlu_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlu_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rasa_core.log" beforeDir="false" afterPath="$PROJECT_DIR$/rasa_core.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rough.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rough.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rules.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shell_scripts" beforeDir="false" afterPath="$PROJECT_DIR$/shell_scripts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/story_graph.dot" beforeDir="false" afterPath="$PROJECT_DIR$/story_graph.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/test02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_interactive.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_interactive.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="165">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -382,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560764561043</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="none">
+      <created>1561099064240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561099064240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -396,7 +374,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27351096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -668,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="165">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
