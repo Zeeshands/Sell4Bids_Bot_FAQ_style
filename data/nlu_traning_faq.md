@@ -27,7 +27,6 @@
 ## intent:faq.ask_products
 - what do you sell
 - what products are for sale
-- anything for sale
 - I want to buy something, what can you offer
 - what is for sale
 
@@ -76,3 +75,16 @@
 - is listening paid
 - is there any payment for posting a listening
 - is there any payment to post
+
+## intent:list_my_products
+- list my product
+- list my products
+- please list my products
+- can you list my products
+- list my stuff
+- please list my stuff
+- can you list my stuff
+- what are my products
+- what products do I have
+- what do I have
+- what do I have for sale

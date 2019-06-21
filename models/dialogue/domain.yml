@@ -3,6 +3,7 @@
 actions:
 - action_faq
 - utter_default
+- action_list_my_products
 config:
   store_entities_as_slots: true
 entities:

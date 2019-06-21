@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 from rasa_core_sdk import Action
 import random
+from rasa_core.channels.socketio import SocketIOInput
 
 class ActionFAQ(Action):
 
@@ -15,17 +16,16 @@ class ActionFAQ(Action):
            full = tracker.latest_message.__str__()
            intent = tracker.latest_message['intent'].get('name')
 
+
            if intent == 'faq.greet':
-               #tup1 = ("Hello! How can I help" , "Good day & how may I help you!")
-               #res = tup1[random.randint(0, 2)]
-               res = 'Hello! How can I help'
+               tup1 = ("Hello! How can I help" , "Good day & how may I help you!")
+               res = tup1[random.randint(0, 1)]
            elif intent == 'faq.banner':
                res = 'Hi, I am Sell4Bids ChatBot, How can I help you'
 
            elif intent == 'faq.goodbye':
-               res = 'Bye Bye'
-               #tup1 = ("Bye bye: (" , "Take care !")
-               #res = tup1[random.randint(0, 2)]
+               tup1 = ("Bye bye: (" , "Take care !")
+               res = tup1[random.randint(0, 1)]
 
            elif intent == 'faq.ask_products':
                res = 'On Sell4Bids, you can buy and sell almost anything: new and used products, handmade items and crafts, gift cards'
@@ -35,7 +35,7 @@ class ActionFAQ(Action):
 
            elif intent == 'faq.ask_howto':
                entity = (tracker.latest_message['entities'][0]).get('value').__str__()
-               if entity in ('sellers','auctioneers'):
+               if entity in ('sellers','auctioneers','seller','auctioners'):
                 res = 'You signup ,setup your sellers profile, Take photo Auction,jobs, Chat with buyers, Turn stuff into cash'
                elif entity in ('buyers', 'bidders'):
                 res = 'You signup, search or browse stuff, bid or buy, buy in person, leverage our AI, shop with a roar'
@@ -60,4 +60,5 @@ class ActionFAQ(Action):
            elif intent == 'faq.ask_listening_payment':
                res = 'No, Currently you don’t have to pay for listing on Sell4Bids. You can list as many items as you want to sell.'
 
+           res = str(tracker.sender_id)
            dispatcher.utter_message(res)

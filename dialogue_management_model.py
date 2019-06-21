@@ -34,5 +34,5 @@ def run_sell4bids_bot(serve_forever=True):
 	return agent
 	
 if __name__ == '__main__':
-	train_dialogue()
+	#train_dialogue()
 	run_sell4bids_bot()

@@ -26,3 +26,4 @@ templates:
 actions:
  - action_faq
  - utter_default
+ - action_list_my_products
