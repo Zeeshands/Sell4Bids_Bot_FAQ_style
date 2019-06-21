@@ -16,7 +16,6 @@ class ActionFAQ(Action):
            full = tracker.latest_message.__str__()
            intent = tracker.latest_message['intent'].get('name')
 
-
            if intent == 'faq.greet':
                tup1 = ("Hello! How can I help" , "Good day & how may I help you!")
                res = tup1[random.randint(0, 1)]
