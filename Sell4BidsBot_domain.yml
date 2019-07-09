@@ -22,8 +22,11 @@ entities:
 templates:
   utter_default:
     - 'I did''nt quite get that, you can ask me things like what is sell4bids etc'
+  utter_hehe:
+    - 'utter hehehehe'
 
 actions:
  - action_faq
  - utter_default
  - action_list_my_products
+ - utter_hehe

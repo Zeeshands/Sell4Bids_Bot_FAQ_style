@@ -91,10 +91,6 @@
       },
       {
         "intent": "faq.ask_products",
-        "text": "anything for sale"
-      },
-      {
-        "intent": "faq.ask_products",
         "text": "I want to buy something, what can you offer"
       },
       {
@@ -112,6 +108,18 @@
       {
         "intent": "faq.ask_about_sell4bids",
         "text": "what is sell4bids"
+      },
+      {
+        "intent": "faq.ask_about_sell4bids",
+        "text": "what is sell for bids"
+      },
+      {
+        "intent": "faq.ask_about_sell4bids",
+        "text": "what is sellforbids"
+      },
+      {
+        "intent": "faq.ask_about_sell4bids",
+        "text": "explain what is sell for bids"
       },
       {
         "intent": "faq.ask_howto",
@@ -252,6 +260,50 @@
       {
         "intent": "faq.ask_listening_payment",
         "text": "is there any payment to post"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "list my product"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "list my products"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "please list my products"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "can you list my products"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "list my stuff"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "please list my stuff"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "can you list my stuff"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "what are my products"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "what products do I have"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "what do I have"
+      },
+      {
+        "intent": "list_my_products",
+        "text": "what do I have for sale"
       }
     ],
     "regex_features": [],

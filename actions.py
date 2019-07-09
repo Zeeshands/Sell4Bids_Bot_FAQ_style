@@ -15,12 +15,14 @@ class ActionFAQ(Action):
            #get the original intent from tracker.latest_message and retrieve the correct answer
            full = tracker.latest_message.__str__()
            intent = tracker.latest_message['intent'].get('name')
+           #input_channel = SocketIOInput(user_message_evt="faq.banner",bot_message_evt="action_faq")
+           #input_channel.__str__()
 
            if intent == 'faq.greet':
                tup1 = ("Hello! How can I help" , "Good day & how may I help you!")
                res = tup1[random.randint(0, 1)]
            elif intent == 'faq.banner':
-               res = 'Hi, I am Sell4Bids ChatBot, How can I help you'
+               res = 'Hi, I am Ed, The Sell4Bids ChatBot AI. How can i help you make the the Sell4Bids experience simpler, cooler and faster?'
 
            elif intent == 'faq.goodbye':
                tup1 = ("Bye bye: (" , "Take care !")

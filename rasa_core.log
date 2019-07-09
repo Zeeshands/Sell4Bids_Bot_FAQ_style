@@ -285,3 +285,53 @@ Encountered an exception while running action 'action_faq'. Bot will continue, b
 Rasa process starting
 Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
 Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_faq'. Couldn't connect to the server at 'http://147.135.11.126:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='147.135.11.126', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa54806f208>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_faq'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_faq'. Couldn't connect to the server at 'http://147.135.11.126:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='147.135.11.126', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa51074e1d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_faq'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_faq'. Couldn't connect to the server at 'http://147.135.11.126:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='147.135.11.126', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2b04438160>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_faq'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_faq'. Couldn't connect to the server at 'http://147.135.11.126:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='147.135.11.126', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2b043cb2e8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Encountered an exception while running action 'action_faq'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+Invalid session 72b6a17e259242bc8834e60c9fb5d7c5
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages.json
+PAYLOAD: {'To': 'whatsapp:+923452861900', 'From': 'whatsapp:+14155238886', 'Body': 'who is the president'}
+POST Response: 201 {"sid": "SMc5ca32069b47421aa08e235414925326", "date_created": "Thu, 27 Jun 2019 13:41:35 +0000", "date_updated": "Thu, 27 Jun 2019 13:41:35 +0000", "date_sent": null, "account_sid": "AC189967074396291706232aa34336b5c5", "to": "whatsapp:+923452861900", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "who is the president", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages/SMc5ca32069b47421aa08e235414925326.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages/SMc5ca32069b47421aa08e235414925326/Media.json"}}
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5500
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages.json
+PAYLOAD: {'To': 'whatsapp:+923452861900', 'From': 'whatsapp:+14155238886', 'Body': 'who is the president'}
+POST Response: 201 {"sid": "SM077e591bd405405eae3da397e12bb551", "date_created": "Thu, 27 Jun 2019 14:02:08 +0000", "date_updated": "Thu, 27 Jun 2019 14:02:08 +0000", "date_sent": null, "account_sid": "AC189967074396291706232aa34336b5c5", "to": "whatsapp:+923452861900", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "who is the president", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages/SM077e591bd405405eae3da397e12bb551.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages/SM077e591bd405405eae3da397e12bb551/Media.json"}}
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages.json
+PAYLOAD: {'To': 'whatsapp:+923452861900', 'From': 'whatsapp:+14155238886', 'Body': 'who is trump'}
+POST Response: 201 {"sid": "SM2be55217a93f4c1090c5b68626a6e8b3", "date_created": "Thu, 27 Jun 2019 14:02:37 +0000", "date_updated": "Thu, 27 Jun 2019 14:02:37 +0000", "date_sent": null, "account_sid": "AC189967074396291706232aa34336b5c5", "to": "whatsapp:+923452861900", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "who is trump", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages/SM2be55217a93f4c1090c5b68626a6e8b3.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC189967074396291706232aa34336b5c5/Messages/SM2be55217a93f4c1090c5b68626a6e8b3/Media.json"}}

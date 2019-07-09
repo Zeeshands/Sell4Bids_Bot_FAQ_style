@@ -4,6 +4,7 @@ actions:
 - action_faq
 - utter_default
 - action_list_my_products
+- utter_hehe
 config:
   store_entities_as_slots: true
 entities:
@@ -42,3 +43,5 @@ slots:
 templates:
   utter_default:
   - text: I did'nt quite get that, you can ask me things like what is sell4bids etc
+  utter_hehe:
+  - text: utter hehehehe

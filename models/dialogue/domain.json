@@ -23,6 +23,7 @@
     "prev_action_default_ask_rephrase",
     "prev_action_faq",
     "prev_utter_default",
-    "prev_action_list_my_products"
+    "prev_action_list_my_products",
+    "prev_utter_hehe"
   ]
 }

@@ -19,7 +19,7 @@ def train_dialogue(domain_file = 'Sell4BidsBot_domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
 
-	fallback = FallbackPolicy(fallback_action_name="action_default_fallback", core_threshold=0.3, nlu_threshold=0.2)
+	fallback = FallbackPolicy( fallback_action_name="action_default_fallback", core_threshold=0.3, nlu_threshold=0.2)
 	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=200, batch_size=50),fallback])
 	data = agent.load_data(training_data_file)
 	agent.train(data)
@@ -35,4 +35,6 @@ def run_sell4bids_bot(serve_forever=True):
 	
 if __name__ == '__main__':
 	#train_dialogue()
+	#logging.basicConfig(level=logging.DEBUG)
+	#logging.debug('This will get logged')
 	run_sell4bids_bot()

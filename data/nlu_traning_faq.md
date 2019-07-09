@@ -34,6 +34,9 @@
 - what is sell4bids
 - what sell4bids
 - what is sell4bids
+- what is sell for bids
+- what is sellforbids
+- explain what is sell for bids
 
 ## intent:faq.ask_howto
 - How it works for [sellers](buyerseller)
